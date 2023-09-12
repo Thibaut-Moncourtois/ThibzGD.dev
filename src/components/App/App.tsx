@@ -75,6 +75,12 @@ function App() {
             </p>
           </div>
           <Icon3d />
+          <h3>Designs Épurés</h3>
+          <p>Créer des designs élégants adaptés à vos besoins!</p>
+          <h4>Outils que j'utilise.</h4>
+          <p className="text-gray-800 py-1">Photoshop</p>
+          <p className="text-gray-800 py-1">Canva</p>
+          <p className="text-gray-800 py-1">Figma</p>
         </section>
       </main>
     </div>
