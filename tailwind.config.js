@@ -2,7 +2,11 @@
 export default {
   content: ['./src/**/*.{js,ts,jsx,tsx}'],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        burtons: 'burtons',
+      },
+    },
   },
   plugins: [require('@tailwindcss/typography'), require('daisyui')],
 };

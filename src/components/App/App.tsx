@@ -8,16 +8,21 @@ function App() {
         <title> ThibzGD Website</title>
         <meta name="description" />
       </header>
-      <main>
+      <main className="bg-white px-10">
         <section className="min-h-screen">
-          <nav>
-            <h1>Developed by ThibzGD</h1>
-            <ul>
+          <nav className="py-10 mb-12 flex justify-between">
+            <h1 className="text-xl font-burtons">Developed by ThibzGD</h1>
+            <ul className="flex items-center">
               <li>
                 <DarkMode />
               </li>
               <li>
-                <a href="/resume">My Resume</a>
+                <a
+                  className=" bg-gradient-to-r from-cyan-500 to-teal-500 text-white px-4 py-2 rounded-md ml-8"
+                  href="/resume"
+                >
+                  My Resume
+                </a>
               </li>
             </ul>
           </nav>
