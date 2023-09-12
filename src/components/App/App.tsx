@@ -24,7 +24,7 @@ function App() {
                   className=" bg-gradient-to-r from-cyan-500 to-teal-500 text-white px-4 py-2 rounded-md ml-8"
                   href="/resume"
                 >
-                  My Resume
+                  Mon CV
                 </a>
               </li>
             </ul>
@@ -74,13 +74,17 @@ function App() {
               </span>
             </p>
           </div>
-          <Icon3d />
-          <h3>Designs Épurés</h3>
-          <p>Créer des designs élégants adaptés à vos besoins!</p>
-          <h4>Outils que j'utilise.</h4>
-          <p className="text-gray-800 py-1">Photoshop</p>
-          <p className="text-gray-800 py-1">Canva</p>
-          <p className="text-gray-800 py-1">Figma</p>
+          <div className="text-center shadow-lg pb-10 rounded-xl my-10">
+            <Icon3d />
+            <h3 className="text-lg font-medium pt-8 pb-2">Designs Épurés</h3>
+            <p className="py-2">
+              Créer des designs élégants adaptés à vos besoins!
+            </p>
+            <h4 className="py-4 text-teal-600">Outils que j'utilise:</h4>
+            <p className="text-gray-800 py-1">Photoshop</p>
+            <p className="text-gray-800 py-1">Canva</p>
+            <p className="text-gray-800 py-1">Figma</p>
+          </div>
         </section>
       </main>
     </div>
