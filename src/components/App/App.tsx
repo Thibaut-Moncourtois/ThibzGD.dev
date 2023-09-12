@@ -45,6 +45,35 @@ function App() {
             <Avatar />
           </div>
         </section>
+
+        <section>
+          <div>
+            <h3 className="text-3xl py-1">Qui suis-je ?</h3>
+            <p className="text-md py-2 leading-8 text-gray-800">
+              Après plusieurs années passées dans le domaine du sport, j'ai
+              engagé il y a 1 ans un processus de reconversion professionnelle
+              afin de me réorienter vers le domaine informatique. J’ai donc
+              entrepris une formation de développeur
+              <span className="text-teal-500 font-medium">
+                {' '}
+                Fullstack JavaScript{' '}
+              </span>
+              complétée par un cursus en autoformation sur le CRM{' '}
+              <span className="text-teal-500 font-medium"> Saleforce. </span>
+              Actuellement, je continnue de concevoir des applications afin de
+              poursuivre mon apprentissage du langage, et je passe les
+              différents niveaux de certification pour valider mon expertise de
+              développeur et dans l’optique d’atteindre la cetification
+              d’architect Salesforce.
+            </p>
+            <p>
+              <span className="text-teal-500 font-medium">
+                "Ce que nous devons apprendre à faire, nous l'apprenons en le
+                faisant."
+              </span>
+            </p>
+          </div>
+        </section>
       </main>
     </div>
   );
