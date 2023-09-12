@@ -1,6 +1,6 @@
 import DarkMode from '../DarkMode/DarkMode';
-import LinkedInLogo from '../../assets/linkedin.png';
-import GithubLogo from '../../assets/github.png';
+import SocialMedia from '../SocialMedia/SocialMedia';
+import Avatar from '../Avatar/Avatar';
 import './App.scss';
 
 function App() {
@@ -40,8 +40,10 @@ function App() {
               faisons de votre présence en ligne un succès incontestable.
             </p>
           </div>
-          <LinkedInLogo />
-          <GithubLogo />
+          <SocialMedia />
+          <div>
+            <Avatar />
+          </div>
         </section>
       </main>
     </div>

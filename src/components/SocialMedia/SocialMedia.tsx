@@ -1,22 +1,25 @@
 import LinkedInLogo from '../../assets/linkedin.png';
 import GithubLogo from '../../assets/github.png';
+import TwitterLogo from '../../assets/twitter.png';
 
 function socialMedia() {
   return (
-    <section className="logos">
+    <section className="flex justify-center gap-16 py-3">
       <div className="github-logo">
         <a href="https://github.com/Thibaut-Moncourtois">
-          <header className="absolute top-30 left-20">
-            <img className="w-5  " src={GithubLogo} alt="LogoGithub" />
-          </header>
+          <img className="w-10 " src={GithubLogo} alt="LogoGithub" />
+        </a>
+      </div>
+
+      <div className="twitter-logo">
+        <a href="https://twitter.com/Thibz_GD">
+          <img className="w-10" src={TwitterLogo} alt="LogoLinkedIn" />
         </a>
       </div>
 
       <div className="linkedin-logo">
         <a href="https://www.linkedin.com/in/thibaut-moncourtois/">
-          <header className="absolute top-30 right left-8  ">
-            <img className="w-5" src={LinkedInLogo} alt="LogoLinkedIn" />
-          </header>
+          <img className="w-10" src={LinkedInLogo} alt="LogoLinkedIn" />
         </a>
       </div>
     </section>
