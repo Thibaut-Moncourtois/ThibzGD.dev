@@ -2,6 +2,7 @@ import DarkMode from '../DarkMode/DarkMode';
 import SocialMedia from '../SocialMedia/SocialMedia';
 import Avatar from '../Avatar/Avatar';
 import './App.scss';
+import Icon3d from '../Icon3d/Icon3d';
 
 function App() {
   return (
@@ -46,7 +47,7 @@ function App() {
           </div>
         </section>
 
-        <section>
+        <section className="py-9">
           <div>
             <h3 className="text-3xl py-1">Qui suis-je ?</h3>
             <p className="text-md py-2 leading-8 text-gray-800">
@@ -73,6 +74,7 @@ function App() {
               </span>
             </p>
           </div>
+          <Icon3d />
         </section>
       </main>
     </div>
