@@ -6,21 +6,23 @@ import DesignIcon from '../Icon3d/CodeIcon';
 import Icon3d from '../Icon3d/Icon3d';
 import EmailIcon from '../Icon3d/EmailIcon';
 import Pokedex from '../../assets/pokedex.png';
+import { useState } from 'react';
 
 function App() {
+  const { darkMode, setDarkMode } = useState(false);
   return (
-    <div className="App">
+    <div className={darkMode ? 'dark' : ''}>
       <header className="App-header">
         <title> ThibzGD Website</title>
         <meta name="description" />
       </header>
-      <main className="bg-white px-10 md:px-20 lg:px-40">
+      <main className="bg-white px-10 md:px-20 lg:px-40 dark:bg-gray-900">
         <section className="min-h-screen">
           <nav className="py-10 mb-12 flex justify-between">
             <h1 className="text-xl">Developed by ThibzGD</h1>
             <ul className="flex items-center">
               <li>
-                <DarkMode />
+                <DarkMode onClick={() => setDarkMode(!darkMode)} />
               </li>
               <li>
                 <a
@@ -136,7 +138,15 @@ function App() {
               d’architect Salesforce.
             </p>
           </div>
-          <img src={Pokedex} alt="Pokedex" />
+          <div className="project-section flex flex-col gap-10 py-10 lg:flex-row lg:flex-wrap">
+            <div className="basis-1/3 flex-1">
+              <img
+                src={Pokedex}
+                alt="Pokedex"
+                className="rounded-lg object-cover"
+              />
+            </div>
+          </div>
         </section>
       </main>
     </div>
