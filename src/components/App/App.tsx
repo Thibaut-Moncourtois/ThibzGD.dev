@@ -5,6 +5,7 @@ import './App.scss';
 import DesignIcon from '../Icon3d/CodeIcon';
 import Icon3d from '../Icon3d/Icon3d';
 import EmailIcon from '../Icon3d/EmailIcon';
+import Pokedex from '../../assets/pokedex.png';
 
 function App() {
   return (
@@ -13,7 +14,7 @@ function App() {
         <title> ThibzGD Website</title>
         <meta name="description" />
       </header>
-      <main className="bg-white px-10">
+      <main className="bg-white px-10 md:px-20 lg:px-40">
         <section className="min-h-screen">
           <nav className="py-10 mb-12 flex justify-between">
             <h1 className="text-xl">Developed by ThibzGD</h1>
@@ -32,13 +33,13 @@ function App() {
             </ul>
           </nav>
           <div className="text-center p-10">
-            <h2 className="text-5xl py-2 text-teal-600 font-medium">
+            <h2 className="text-5xl py-2 text-teal-600 font-medium md:text-6xl">
               Thibaut Moncourtois
             </h2>
-            <h3 className="text-2xl py-2 text-black">
+            <h3 className="text-2xl py-2 text-black md:text-3xl">
               Developpeur & designer.
             </h3>
-            <p className="text-md py-5 leading-8 text-gray-800">
+            <p className="text-md py-5 leading-8 text-gray-800 md:text-xl max-w-xl mx-auto">
               Transformez vos idées en sites web exceptionnels! Ensemble,
               faisons de votre présence en ligne un succès incontestable.
             </p>
@@ -75,40 +76,42 @@ function App() {
               </span>
             </p>
           </div>
-          <div className="text-center shadow-lg pb-10 rounded-xl my-10">
-            <Icon3d />
-            <h3 className="text-lg font-medium pt-8 pb-2">Designs Épurés</h3>
-            <p className="py-2">
-              Créer des designs élégants adaptés à vos besoins!
-            </p>
-            <h4 className="py-4 text-teal-600">Outils que j'utilise:</h4>
-            <p className="text-gray-800 py-1">Photoshop</p>
-            <p className="text-gray-800 py-1">Canva</p>
-            <p className="text-gray-800 py-1">Figma</p>
-          </div>
+          <div className="section-icon lg:flex gap-10">
+            <div className="text-center shadow-lg pb-10 rounded-xl my-10">
+              <Icon3d />
+              <h3 className="text-lg font-medium pt-8 pb-2">Designs Épurés</h3>
+              <p className="py-2">
+                Créer des designs élégants adaptés à vos besoins!
+              </p>
+              <h4 className="py-4 text-teal-600">Outils que j'utilise:</h4>
+              <p className="text-gray-800 py-1">Photoshop</p>
+              <p className="text-gray-800 py-1">Canva</p>
+              <p className="text-gray-800 py-1">Figma</p>
+            </div>
 
-          <div className="text-center shadow-lg pb-10 rounded-xl my-10">
-            <DesignIcon />
-            <h3 className="text-lg font-medium pt-8 pb-2">Designs Épurés</h3>
-            <p className="py-2">
-              Créer des designs élégants adaptés à vos besoins!
-            </p>
-            <h4 className="py-4 text-teal-600">Outils que j'utilise:</h4>
-            <p className="text-gray-800 py-1">Photoshop</p>
-            <p className="text-gray-800 py-1">Canva</p>
-            <p className="text-gray-800 py-1">Figma</p>
-          </div>
+            <div className="text-center shadow-lg pb-10 rounded-xl my-10">
+              <DesignIcon />
+              <h3 className="text-lg font-medium pt-8 pb-2">Designs Épurés</h3>
+              <p className="py-2">
+                Créer des designs élégants adaptés à vos besoins!
+              </p>
+              <h4 className="py-4 text-teal-600">Outils que j'utilise:</h4>
+              <p className="text-gray-800 py-1">Photoshop</p>
+              <p className="text-gray-800 py-1">Canva</p>
+              <p className="text-gray-800 py-1">Figma</p>
+            </div>
 
-          <div className="text-center shadow-lg pb-10 rounded-xl my-10">
-            <EmailIcon />
-            <h3 className="text-lg font-medium pt-8 pb-2">Designs Épurés</h3>
-            <p className="py-2">
-              Créer des designs élégants adaptés à vos besoins!
-            </p>
-            <h4 className="py-4 text-teal-600">Outils que j'utilise:</h4>
-            <p className="text-gray-800 py-1">Photoshop</p>
-            <p className="text-gray-800 py-1">Canva</p>
-            <p className="text-gray-800 py-1">Figma</p>
+            <div className="text-center shadow-lg pb-10 rounded-xl my-10">
+              <EmailIcon />
+              <h3 className="text-lg font-medium pt-8 pb-2">Designs Épurés</h3>
+              <p className="py-2">
+                Créer des designs élégants adaptés à vos besoins!
+              </p>
+              <h4 className="py-4 text-teal-600">Outils que j'utilise:</h4>
+              <p className="text-gray-800 py-1">Photoshop</p>
+              <p className="text-gray-800 py-1">Canva</p>
+              <p className="text-gray-800 py-1">Figma</p>
+            </div>
           </div>
         </section>
 
@@ -133,6 +136,7 @@ function App() {
               d’architect Salesforce.
             </p>
           </div>
+          <img src={Pokedex} alt="Pokedex" />
         </section>
       </main>
     </div>
