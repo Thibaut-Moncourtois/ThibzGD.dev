@@ -6,12 +6,10 @@ import DesignIcon from '../Icon3d/CodeIcon';
 import Icon3d from '../Icon3d/Icon3d';
 import EmailIcon from '../Icon3d/EmailIcon';
 import Pokedex from '../../assets/pokedex.png';
-import { useState } from 'react';
 
 function App() {
-  const { darkMode, setDarkMode } = useState(false);
   return (
-    <div className={darkMode ? 'dark' : ''}>
+    <div className="App">
       <header className="App-header">
         <title> ThibzGD Website</title>
         <meta name="description" />
@@ -52,7 +50,7 @@ function App() {
           </div>
         </section>
 
-        <section className="py-9">
+        <section className="py-8">
           <div>
             <h3 className="text-3xl py-1 text-black">Qui suis-je ?</h3>
             <p className="text-md py-2 leading-8 text-gray-800">

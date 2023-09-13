@@ -1,5 +1,5 @@
-import { useState, useEffect } from 'react';
-import { Theme, ThemeProviderProps } from '../types';
+import { useState, useEffect, useMemo } from 'react';
+import { Theme, ThemeProviderProps, ThemeProviderState } from '../types';
 import ThemeProviderContext from '../contexts/ThemeContext';
 
 function ThemeProvider({
@@ -31,12 +31,12 @@ function ThemeProvider({
     }
   }, [theme, storageKey]);
 
-  const value: ThemeProviderState = {
-    theme,
-    setTheme: (theme: Theme) => {
-      setTheme(theme);
-    },
-  };
+  const value: ThemeProviderState = useMemo(() => {
+    return {
+      theme,
+      setTheme: (currentTheme: Theme) => setTheme(currentTheme),
+    };
+  }, [theme]);
 
   return (
     <ThemeProviderContext.Provider {...props} value={value}>
