@@ -62,11 +62,12 @@ function App() {
               afin de me réorienter vers le domaine informatique. J’ai donc
               entrepris une formation de développeur
               <span className="text-teal-500 font-medium">
+                {' '}
                 Fullstack JavaScript{' '}
               </span>
               complétée par un cursus en autoformation sur le CRM{' '}
               <span className="text-teal-500 font-medium"> Saleforce. </span>
-              Actuellement, je continnue de concevoir des applications afin de
+              Actuellement, je continue de concevoir des applications afin de
               poursuivre mon apprentissage du langage, et je passe les
               différents niveaux de certification pour valider mon expertise de
               développeur et dans l’optique d’atteindre la cetification
@@ -88,32 +89,47 @@ function App() {
               </p>
               <h4 className="py-4 text-teal-600">Outils que j'utilise:</h4>
               <p className="text-gray-800 py-1 dark:text-gray-400">Photoshop</p>
+              <p className="text-gray-800 py-1 dark:text-gray-400">
+                Illustrator
+              </p>
               <p className="text-gray-800 py-1 dark:text-gray-400">Canva</p>
               <p className="text-gray-800 py-1 dark:text-gray-400">Figma</p>
             </div>
 
             <div className="text-center shadow-lg pb-10 rounded-xl my-10 dark:shadow-gray-800">
               <EmailIcon />
-              <h3 className="text-lg font-medium pt-8 pb-2">Designs Épurés</h3>
+              <h3 className="text-lg font-medium pt-8 pb-2">Me contacter</h3>
               <p className="py-2 mx-2">
                 Créer des designs élégants adaptés à vos besoins!
               </p>
-              <h4 className="py-4 text-teal-600">Outils que j'utilise:</h4>
-              <p className="text-gray-800 py-1 dark:text-gray-400">Photoshop</p>
-              <p className="text-gray-800 py-1 dark:text-gray-400">Canva</p>
-              <p className="text-gray-800 py-1 dark:text-gray-400">Figma</p>
+              <h4 className="py-4 text-teal-600">Réseaux que j'utilise:</h4>
+              <p className="text-gray-800 py-1 dark:text-gray-400">LinkedIn</p>
+              <p className="text-gray-800 py-1 dark:text-gray-400">Gmail</p>
+              <p className="text-gray-800 py-1 dark:text-gray-400">
+                Twitter | X
+              </p>
+              <p className="text-gray-800 py-1 dark:text-gray-400">Hibou</p>
             </div>
 
             <div className="text-center shadow-lg pb-10 rounded-xl my-10 dark:shadow-gray-800">
               <CodeIcon />
-              <h3 className="text-lg font-medium pt-8 pb-2">Designs Épurés</h3>
+              <h3 className="text-lg font-medium pt-8 pb-2">Code</h3>
               <p className="py-2 mx-2">
-                Créer des designs élégants adaptés à vos besoins!
+                En constant apprentissage de nouvelles technos!
               </p>
-              <h4 className="py-4 text-teal-600">Outils que j'utilise:</h4>
-              <p className="text-gray-800 py-1 dark:text-gray-400">Photoshop</p>
-              <p className="text-gray-800 py-1 dark:text-gray-400">Canva</p>
-              <p className="text-gray-800 py-1 dark:text-gray-400">Figma</p>
+              <h4 className="py-4 text-teal-600">
+                Langages et technos que j'utilise:
+              </h4>
+              <p className="text-gray-800 py-1 dark:text-gray-400">
+                React | TypeScript
+              </p>
+              <p className="text-gray-800 py-1 dark:text-gray-400">Next.js</p>
+              <p className="text-gray-800 py-1 dark:text-gray-400">
+                Node.js | Adonis
+              </p>
+              <p className="text-gray-800 py-1 dark:text-gray-400">
+                PostgreSQL
+              </p>
             </div>
           </div>
         </section>
@@ -124,21 +140,12 @@ function App() {
               Portfolio
             </h3>
             <p className="text-md py-2 px-10 pb-10 mt-5 leading-8 text-gray-800 dark:text-gray-400 text-center">
-              Après plusieurs années passées dans le domaine du sport, j'ai
-              engagé il y a 1 ans un processus de reconversion professionnelle
-              afin de me réorienter vers le domaine informatique. J’ai donc
-              entrepris une formation de développeur
-              <span className="text-teal-500 font-medium">
-                {' '}
-                Fullstack JavaScript{' '}
-              </span>
-              complétée par un cursus en autoformation sur le CRM{' '}
-              <span className="text-teal-500 font-medium"> Saleforce. </span>
-              Actuellement, je continnue de concevoir des applications afin de
-              poursuivre mon apprentissage du langage, et je passe les
-              différents niveaux de certification pour valider mon expertise de
-              développeur et dans l’optique d’atteindre la cetification
-              d’architect Salesforce.
+              Je m'investis pleinement dans la création d'application et site
+              web afin de toujours{' '}
+              <span className="text-teal-500 font-medium"> apprendre </span>et
+              de <span className="text-teal-500 font-medium"> grandir </span>
+              dans ce domaine. Je suis très heureux de pouvoir partager mon
+              travail avec vous!
             </p>
           </div>
           <div className="project-section flex flex-col gap-10 py-10 lg:flex-row lg:flex-wrap">
