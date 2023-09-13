@@ -22,7 +22,7 @@ function App() {
             <h1 className="text-xl">Developed by ThibzGD</h1>
             <ul className="flex items-center">
               <li>
-                <DarkMode onClick={() => setDarkMode(!darkMode)} />
+                <DarkMode />
               </li>
               <li>
                 <a
