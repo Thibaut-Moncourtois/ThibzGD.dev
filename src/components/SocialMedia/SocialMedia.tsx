@@ -10,7 +10,7 @@ function socialMedia() {
         <a href="https://github.com/Thibaut-Moncourtois">
           <FontAwesomeIcon
             icon={faGithub}
-            className="text-4xl dark:text-white"
+            className="text-4xl text-black dark:text-gray-400"
           />
         </a>
       </div>
@@ -19,7 +19,7 @@ function socialMedia() {
         <a href="https://twitter.com/Thibz_GD">
           <FontAwesomeIcon
             icon={faXTwitter}
-            className="text-4xl text-black dark:text-white"
+            className="text-4xl text-black dark:text-gray-400"
           />
         </a>
       </div>
@@ -28,7 +28,7 @@ function socialMedia() {
         <a href="https://www.linkedin.com/in/thibaut-moncourtois/">
           <FontAwesomeIcon
             icon={faLinkedin}
-            className="text-4xl text-black dark:text-white"
+            className="text-4xl text-black dark:text-gray-400"
           />
         </a>
       </div>

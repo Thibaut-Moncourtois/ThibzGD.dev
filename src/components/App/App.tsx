@@ -36,10 +36,10 @@ function App() {
             <h2 className="text-5xl py-2 text-teal-600 font-medium md:text-6xl">
               Thibaut Moncourtois
             </h2>
-            <h3 className="text-2xl py-2 text-black md:text-3xl">
+            <h3 className="text-2xl py-2 text-black md:text-3xl dark:text-gray-400">
               Developpeur & designer.
             </h3>
-            <p className="text-md py-5 leading-8 text-gray-800 md:text-xl max-w-xl mx-auto">
+            <p className="text-md py-5 leading-8 text-gray-800 md:text-xl max-w-xl mx-auto dark:text-gray-400">
               Transformez vos idées en sites web exceptionnels! Ensemble,
               faisons de votre présence en ligne un succès incontestable.
             </p>
@@ -52,8 +52,10 @@ function App() {
 
         <section className="py-8">
           <div>
-            <h3 className="text-3xl py-1 text-black">Qui suis-je ?</h3>
-            <p className="text-md py-2 leading-8 text-gray-800">
+            <h3 className="text-3xl py-1 text-black dark:text-gray-400">
+              Qui suis-je ?
+            </h3>
+            <p className="text-md py-2 leading-8 text-gray-800 dark:text-gray-400">
               Après plusieurs années passées dans le domaine du sport, j'ai
               engagé il y a 1 ans un processus de reconversion professionnelle
               afin de me réorienter vers le domaine informatique. J’ai donc
@@ -84,9 +86,9 @@ function App() {
                 Créer des designs élégants adaptés à vos besoins!
               </p>
               <h4 className="py-4 text-teal-600">Outils que j'utilise:</h4>
-              <p className="text-gray-800 py-1">Photoshop</p>
-              <p className="text-gray-800 py-1">Canva</p>
-              <p className="text-gray-800 py-1">Figma</p>
+              <p className="text-gray-800 py-1 dark:text-gray-400">Photoshop</p>
+              <p className="text-gray-800 py-1 dark:text-gray-400">Canva</p>
+              <p className="text-gray-800 py-1 dark:text-gray-400">Figma</p>
             </div>
 
             <div className="text-center shadow-lg pb-10 rounded-xl my-10">
@@ -96,9 +98,9 @@ function App() {
                 Créer des designs élégants adaptés à vos besoins!
               </p>
               <h4 className="py-4 text-teal-600">Outils que j'utilise:</h4>
-              <p className="text-gray-800 py-1">Photoshop</p>
-              <p className="text-gray-800 py-1">Canva</p>
-              <p className="text-gray-800 py-1">Figma</p>
+              <p className="text-gray-800 py-1 dark:text-gray-400">Photoshop</p>
+              <p className="text-gray-800 py-1 dark:text-gray-400">Canva</p>
+              <p className="text-gray-800 py-1 dark:text-gray-400">Figma</p>
             </div>
 
             <div className="text-center shadow-lg pb-10 rounded-xl my-10">
@@ -108,17 +110,19 @@ function App() {
                 Créer des designs élégants adaptés à vos besoins!
               </p>
               <h4 className="py-4 text-teal-600">Outils que j'utilise:</h4>
-              <p className="text-gray-800 py-1">Photoshop</p>
-              <p className="text-gray-800 py-1">Canva</p>
-              <p className="text-gray-800 py-1">Figma</p>
+              <p className="text-gray-800 py-1 dark:text-gray-400">Photoshop</p>
+              <p className="text-gray-800 py-1 dark:text-gray-400">Canva</p>
+              <p className="text-gray-800 py-1 dark:text-gray-400">Figma</p>
             </div>
           </div>
         </section>
 
         <section>
           <div>
-            <h3 className="text-3xl py-1 text-black">Portfolio</h3>
-            <p className="text-md py-2 leading-8 text-gray-800">
+            <h3 className="text-3xl py-1 text-black dark:text-gray-400">
+              Portfolio
+            </h3>
+            <p className="text-md py-2 leading-8 text-gray-800 dark:text-gray-400">
               Après plusieurs années passées dans le domaine du sport, j'ai
               engagé il y a 1 ans un processus de reconversion professionnelle
               afin de me réorienter vers le domaine informatique. J’ai donc
