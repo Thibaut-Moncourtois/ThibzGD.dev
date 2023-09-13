@@ -2,7 +2,7 @@ import DarkMode from '../DarkMode/DarkMode';
 import SocialMedia from '../SocialMedia/SocialMedia';
 import Avatar from '../Avatar/Avatar';
 import './App.scss';
-import DesignIcon from '../Icon3d/CodeIcon';
+import CodeIcon from '../Icon3d/CodeIcon';
 import Icon3d from '../Icon3d/Icon3d';
 import EmailIcon from '../Icon3d/EmailIcon';
 import Pokedex from '../../assets/pokedex.png';
@@ -52,10 +52,10 @@ function App() {
 
         <section className="py-8">
           <div>
-            <h3 className="text-3xl py-1 text-black dark:text-gray-400">
+            <h3 className="text-4xl py-1 mt-10 pb-4 text-center text-black dark:text-gray-400">
               Qui suis-je ?
             </h3>
-            <p className="text-md py-2 leading-8 text-gray-800 dark:text-gray-400">
+            <p className="text-md py-2 px-10 leading-8 mt-5 text-center text-gray-800 dark:text-gray-400">
               Après plusieurs années passées dans le domaine du sport, j'ai
               engagé il y a 1 ans un processus de reconversion professionnelle
               afin de me réorienter vers le domaine informatique. J’ai donc
@@ -72,17 +72,17 @@ function App() {
               d’architect Salesforce.
             </p>
             <p>
-              <span className="text-teal-500 font-bold">
+              <span className="text-teal-500 font-bold flex justify-center mt-5 pb-10">
                 "Ce que nous devons apprendre à faire, nous l'apprenons en le
                 faisant."
               </span>
             </p>
           </div>
           <div className="section-icon lg:flex gap-10">
-            <div className="text-center shadow-lg pb-10 rounded-xl my-10">
+            <div className="text-center shadow-lg pb-10 rounded-xl my-10 dark:shadow-gray-800">
               <Icon3d />
               <h3 className="text-lg font-medium pt-8 pb-2">Designs Épurés</h3>
-              <p className="py-2">
+              <p className="py-2 mx-2">
                 Créer des designs élégants adaptés à vos besoins!
               </p>
               <h4 className="py-4 text-teal-600">Outils que j'utilise:</h4>
@@ -91,22 +91,22 @@ function App() {
               <p className="text-gray-800 py-1 dark:text-gray-400">Figma</p>
             </div>
 
-            <div className="text-center shadow-lg pb-10 rounded-xl my-10">
-              <DesignIcon />
-              <h3 className="text-lg font-medium pt-8 pb-2">Designs Épurés</h3>
-              <p className="py-2">
-                Créer des designs élégants adaptés à vos besoins!
-              </p>
-              <h4 className="py-4 text-teal-600">Outils que j'utilise:</h4>
-              <p className="text-gray-800 py-1 dark:text-gray-400">Photoshop</p>
-              <p className="text-gray-800 py-1 dark:text-gray-400">Canva</p>
-              <p className="text-gray-800 py-1 dark:text-gray-400">Figma</p>
-            </div>
-
-            <div className="text-center shadow-lg pb-10 rounded-xl my-10">
+            <div className="text-center shadow-lg pb-10 rounded-xl my-10 dark:shadow-gray-800">
               <EmailIcon />
               <h3 className="text-lg font-medium pt-8 pb-2">Designs Épurés</h3>
-              <p className="py-2">
+              <p className="py-2 mx-2">
+                Créer des designs élégants adaptés à vos besoins!
+              </p>
+              <h4 className="py-4 text-teal-600">Outils que j'utilise:</h4>
+              <p className="text-gray-800 py-1 dark:text-gray-400">Photoshop</p>
+              <p className="text-gray-800 py-1 dark:text-gray-400">Canva</p>
+              <p className="text-gray-800 py-1 dark:text-gray-400">Figma</p>
+            </div>
+
+            <div className="text-center shadow-lg pb-10 rounded-xl my-10 dark:shadow-gray-800">
+              <CodeIcon />
+              <h3 className="text-lg font-medium pt-8 pb-2">Designs Épurés</h3>
+              <p className="py-2 mx-2">
                 Créer des designs élégants adaptés à vos besoins!
               </p>
               <h4 className="py-4 text-teal-600">Outils que j'utilise:</h4>
@@ -119,10 +119,10 @@ function App() {
 
         <section>
           <div>
-            <h3 className="text-3xl py-1 text-black dark:text-gray-400">
+            <h3 className="text-4xl py-1 pb-4 text-black dark:text-gray-400 text-center">
               Portfolio
             </h3>
-            <p className="text-md py-2 leading-8 text-gray-800 dark:text-gray-400">
+            <p className="text-md py-2 px-10 pb-10 mt-5 leading-8 text-gray-800 dark:text-gray-400 text-center">
               Après plusieurs années passées dans le domaine du sport, j'ai
               engagé il y a 1 ans un processus de reconversion professionnelle
               afin de me réorienter vers le domaine informatique. J’ai donc
