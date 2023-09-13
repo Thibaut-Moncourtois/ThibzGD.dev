@@ -6,6 +6,7 @@ import CodeIcon from '../Icon3d/CodeIcon';
 import Icon3d from '../Icon3d/Icon3d';
 import EmailIcon from '../Icon3d/EmailIcon';
 import Pokedex from '../../assets/pokedex.png';
+import Footer from '../Footer /Footer';
 
 function App() {
   return (
@@ -151,6 +152,7 @@ function App() {
           </div>
         </section>
       </main>
+      <Footer />
     </div>
   );
 }
