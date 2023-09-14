@@ -1,4 +1,5 @@
 import DarkMode from '../DarkMode/DarkMode';
+import MonCv from '../../assets/cv-tm.pdf';
 import SocialMedia from '../SocialMedia/SocialMedia';
 import Avatar from '../Avatar/Avatar';
 import './App.scss';
@@ -25,8 +26,10 @@ function App() {
               </li>
               <li>
                 <a
-                  className=" bg-gradient-to-r from-cyan-500 to-teal-500 text-white px-4 py-2 rounded-md ml-8"
-                  href="/resume"
+                  className="bg-gradient-to-r from-cyan-500 to-teal-500 text-white px-4 py-2 rounded-md ml-8"
+                  href={MonCv}
+                  target="_blank"
+                  rel="noopener noreferrer"
                 >
                   Mon CV
                 </a>
