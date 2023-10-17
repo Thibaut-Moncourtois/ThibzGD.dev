@@ -1,5 +1,5 @@
 import DarkMode from '../DarkMode/DarkMode';
-import MonCv from '../../assets/cv-tm.pdf';
+import MonCv from '../../assets/cv-tm_compressed.pdf';
 import SocialMedia from '../SocialMedia/SocialMedia';
 import Avatar from '../Avatar/Avatar';
 import './App.scss';
@@ -7,11 +7,12 @@ import CodeIcon from '../Icon3d/CodeIcon';
 import Icon3d from '../Icon3d/Icon3d';
 import EmailIcon from '../Icon3d/EmailIcon';
 import Pokedex from '../../assets/pokedex.png';
+import ImmoPros from '../../assets/immopros.png';
 import Footer from '../Footer /Footer';
 
 function App() {
   return (
-    <div className="App">
+    <div className="App flex-col md:flex-row">
       <header className="App-header">
         <title> ThibzGD Website</title>
         <meta name="description" />
@@ -71,7 +72,7 @@ function App() {
               complétée par un cursus en autoformation sur le CRM{' '}
               <span className="text-teal-500 font-medium"> Saleforce. </span>
               Actuellement, je continue de concevoir des applications afin de
-              poursuivre mon apprentissage du langage, et je passe les
+              poursuivre mon apprentissage du langage, et je passe également les
               différents niveaux de certification pour valider mon expertise de
               développeur et dans l’optique d’atteindre la cetification
               d’architect Salesforce.
@@ -156,6 +157,15 @@ function App() {
               <img
                 src={Pokedex}
                 alt="Pokedex"
+                className="rounded-lg object-cover"
+              />
+            </div>
+          </div>
+          <div className="project-section flex flex-col gap-10 py-10 lg:flex-row lg:flex-wrap">
+            <div className="basis-1/3 flex-1">
+              <img
+                src={ImmoPros}
+                alt="ImmoPros"
                 className="rounded-lg object-cover"
               />
             </div>
